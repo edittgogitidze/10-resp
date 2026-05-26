@@ -299,9 +299,8 @@ h1 {
   max-width: 1140px;
   width: 90%;
   display: flex;
-  column-gap: 210.6px;
+  justify-content: space-between;
   margin: 0 auto;
-  padding: 96px 0px;
   color: #fff;
   padding: 96px 0px;
 }
