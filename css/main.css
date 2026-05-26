@@ -279,17 +279,11 @@ h1 {
   }
   .right-wraper {
     width: 100%;
-   display: flex;
-   flex-direction: row;
-   column-gap: 129px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 129px;
   }
-  
 }
-
-
-
-
-
 
 @media (max-width: 744px) {
   h1 {
@@ -316,6 +310,13 @@ h1 {
   }
   .ul-list {
     column-gap: 22px;
+  }
+  .right-wraper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .wraper {
+    row-gap: 29px;
   }
 }
 
@@ -345,5 +346,15 @@ h1 {
     background-color: #000000;
     color: #fff;
     border-radius: 50%;
+  }
+  .wraper {
+    row-gap: 14px;
+  }
+  .different {
+    font-size: 16px;
+  }
+  .right-wraper h4 {
+    font-size: 14px;
+    font-weight: 400;
   }
 }
