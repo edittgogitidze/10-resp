@@ -8,7 +8,6 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 34.5px 0px;
-  background-color: aqua;
   align-items: center;
 }
 .nav-class {
@@ -79,7 +78,6 @@ header {
 }
 .right-block {
   width: 490px;
-  background-color: aqua;
 }
 .picture {
   width: 100%;
@@ -294,70 +292,29 @@ h1 {
 .last-class:hover {
   background-color: rgb(204, 136, 58);
 }
-
-.footer-zone {
+.footer-color {
   background-color: #000000;
-  width: 1440px;
-  height: 336px;
-  margin: 0 auto;
-  padding: 96px 0px;
 }
 .footer-class {
-  width: 1140px;
-  height: 144px;
+  max-width: 1140px;
+  width: 90%;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  column-gap: 210.6px;
   margin: 0 auto;
-}
-.footer-class h2 {
-  color: #ffffff;
-  font-size: 24.65px;
-  font-weight: 900;
-  line-height: 26.41px;
-  letter-spacing: -0.44px;
-  font-family: "Inter 28pt";
-  margin-right: 210.6px;
-}
-.footer-class h2:hover {
-  color: crimson;
-}
-.footer-class h4:hover {
-  color: crimson;
-}
-.footer-class h4 {
+  padding: 96px 0px;
   color: #fff;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.1px;
-  font-family: "Inter 28pt";
-  margin-bottom: 16px;
+  padding: 96px 0px;
 }
-.footer-class li a {
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0px;
-  font-family: "Inter 28pt";
+.menu-block {
+  width: 842.4px;
+  display: flex;
 }
-.mg-8 {
-  margin-bottom: 8px;
-}
-.footer-class li a:hover {
-  color: darkorange;
-}
-.subscribe-class p {
+.menu-divs-width {
   width: 210.6px;
-  color: #ffffff;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0px;
-  font-family: "Inter 28pt";
-  margin-top: 24px;
 }
-
+.brand-class {
+  width: 87px;
+}
 @media (max-width: 1024px) {
   .container {
     flex-direction: column;
@@ -404,6 +361,19 @@ h1 {
   }
   .block-on-bg {
     height: auto;
+  }
+  .footer-class {
+    flex-direction: column;
+    row-gap: 48px;
+  }
+  .menu-block {
+    width: 100%;
+  }
+  .brand-class {
+    width: 100%;
+  }
+  .fourth-part {
+    display: none;
   }
 }
 
