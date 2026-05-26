@@ -1,6 +1,3 @@
-body {
-  background-color: #121212;
-}
 header {
   background-color: #fff;
 }
@@ -199,10 +196,12 @@ h1 {
 .wraper {
   max-width: 1140px;
   width: 90%;
+  height: auto;
   margin: 0 auto;
   display: flex;
   column-gap: 133px;
   align-items: center;
+  padding: 96px 0;
 }
 .left-wraper {
   width: 503.5px;
@@ -232,11 +231,69 @@ h1 {
   letter-spacing: 0.1px;
   font-family: "Inter 28pt";
 }
-
 .text-block {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
+}
+
+/*photo-block*/
+
+.photo-section {
+  background-image: url(../images/CTAImg-Wide-1440px+-New.jpg);
+  width: 100%;
+  height: 564px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.block-on-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 180px;
+  max-width: 540px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+.block-on-bg p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-family: "Inter 28pt";
+}
+.block-on-bg h2 {
+  width: 540px;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  font-family: "Inter 28pt";
+}
+.last-class {
+  width: 84px;
+  height: 40px;
+  background-color: #fff;
+  color: #000000;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-family: "Inter 28pt";
+}
+.last-class:hover {
+  background-color: aqua;
 }
 
 @media (max-width: 1024px) {
@@ -283,6 +340,9 @@ h1 {
     flex-direction: row;
     column-gap: 129px;
   }
+  .block-on-bg {
+    height: auto;
+  }
 }
 
 @media (max-width: 744px) {
@@ -317,6 +377,9 @@ h1 {
   }
   .wraper {
     row-gap: 29px;
+  }
+  .block-on-bg h2 {
+    width: 100%;
   }
 }
 
@@ -356,5 +419,8 @@ h1 {
   .right-wraper h4 {
     font-size: 14px;
     font-weight: 400;
+  }
+  .block-on-bg h2 {
+    font-size: 28px;
   }
 }
