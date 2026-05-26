@@ -201,7 +201,7 @@ h1 {
   display: flex;
   column-gap: 133px;
   align-items: center;
-  padding: 96px 0;
+  padding: 96px 0px;
 }
 .left-wraper {
   width: 503.5px;
